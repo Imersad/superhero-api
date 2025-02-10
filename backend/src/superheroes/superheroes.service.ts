@@ -14,4 +14,8 @@ export class SuperheroesService {
       superheroes: this.superheroes,
     };
   }
+
+  fetchSuperhehroes() {
+    return this.superheroes.sort((a, b) => b.humilityScore - a.humilityScore);
+  }
 }
