@@ -1,4 +1,4 @@
-import { Body, Controller, Post, HttpCode } from '@nestjs/common';
+import { Body, Controller, Post, Get, HttpCode } from '@nestjs/common';
 import { SuperheroesService } from './superheroes.service';
 import { CreateSuperheroDto } from './dto/createSuperhero.dto';
 
@@ -10,5 +10,11 @@ export class SuperheroesController {
   @HttpCode(201)
   addSuperhero(@Body() createSuperheroDto: CreateSuperheroDto) {
     return this.superheroesService.addSuperhero(createSuperheroDto);
+  }
+
+  @Get()
+  @HttpCode(200)
+  fetchSuperhehroes() {
+    return this.superheroesService.fetchSuperhehroes();
   }
 }
