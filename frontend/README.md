@@ -1,17 +1,51 @@
-# Humble Superhero API Frontend
+# 🎨 Frontend - Humble Superhero App (React + Vite)
 
-This is a simple frontend for the Humble Superhero API built using **React.js** and **TailwindCSS**.
+This is the frontend for the Humble Superhero API.
 
-## Features
+### 🚀 Setup Instructions
 
-✅ Add a superhero with name, superpower, and humility score  
-✅ View superheroes sorted by humility score in real-time
+1️⃣ Install dependencies:
 
-## 📦 Installation & Setup
-
-```sh
-git clone https://github.com/your-repo/humble-superhero-app.git
-cd humble-superhero-app
-npm install
-npm start
 ```
+npm install
+```
+
+2️⃣ Run the dev server:
+
+```
+npm run dev
+```
+
+Frontend runs at http://localhost:5173.
+
+&nbsp;
+
+### 📌 Features
+
+- Add superheroes using a form.
+
+- View superheroes sorted by humility.
+
+&nbsp;
+
+### 📂 Folder Structure
+
+```
+/src
+│── components/
+│   ├── SuperheroForm.js
+│   ├── SuperheroList.js
+│── main.jsx
+│── App.jsx
+│── index.css
+```
+
+&nbsp;
+
+### 📌 Future Improvements
+
+- Improve UI/UX with animations.
+
+- Add search & filter functionality.
+
+- Make The UI responsive
