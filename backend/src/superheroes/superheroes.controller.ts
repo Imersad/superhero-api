@@ -14,7 +14,7 @@ export class SuperheroesController {
 
   @Get()
   @HttpCode(200)
-  fetchSuperhehroes() {
-    return this.superheroesService.fetchSuperhehroes();
+  fetchSuperheroes() {
+    return this.superheroesService.fetchSuperheroes();
   }
 }

@@ -11,11 +11,10 @@ export class SuperheroesService {
 
     return {
       message: 'Superhero has been created successfully',
-      superheroes: this.superheroes,
     };
   }
 
-  fetchSuperhehroes() {
+  fetchSuperheroes() {
     return this.superheroes.sort((a, b) => b.humilityScore - a.humilityScore);
   }
 }
