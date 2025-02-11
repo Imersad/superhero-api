@@ -98,13 +98,16 @@ If I had more time, I would:
 
 ## 🚀 Getting Started
 
-#### 1️⃣ Clone Repository
+### 1️⃣ Install Node
+- You should have node version 18 installed.
+
+#### 2️⃣ Clone Repository
 
 ```
 git clone https://github.com/Imersad/superhero-api.git
 ```
 
-#### 2️⃣ Backend Setup
+#### 3️⃣ Backend Setup
 
 ```
 cd backend
@@ -114,7 +117,7 @@ pnpm start
 
 Backend runs at http://localhost:3000.
 
-#### 3️⃣ Frontend Setup
+#### 4️⃣ Frontend Setu
 
 ```
 cd frontend
