@@ -90,7 +90,7 @@ If I had more time, I would:
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone Repository
+#### 1️⃣ Clone Repository
 
 ```
 git clone https://github.com/Imersad/superhero-api.git
