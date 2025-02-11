@@ -117,7 +117,7 @@ pnpm start
 
 Backend runs at http://localhost:3000.
 
-#### 4️⃣ Frontend Setu
+#### 4️⃣ Frontend Setup
 
 ```
 cd frontend
