@@ -98,7 +98,7 @@ If I had more time, I would:
 
 ## 🚀 Getting Started
 
-### 1️⃣ Install Node
+#### 1️⃣ Install Node
 - You should have node version 18 installed.
 
 #### 2️⃣ Clone Repository
