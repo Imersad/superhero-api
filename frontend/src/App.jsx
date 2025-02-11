@@ -20,6 +20,7 @@ export default function App() {
     <div className="p-6 max-w-lg mx-auto">
       <h1 className="text-2xl font-bold mb-4">Humble Superhero API</h1>
       <SuperheroForm addSuperhero={handleAddSuperhero} />
+      <hr />
       <SuperheroList superheroes={superheroes} />
     </div>
   );

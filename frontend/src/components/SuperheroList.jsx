@@ -11,6 +11,7 @@ export default function SuperheroList({ superheroes }) {
             <p>{hero.superpower}</p>
             <p>Humility Score: {hero.humilityScore}</p>
           </CardContent>
+          <hr />
         </Card>
       ))}
     </div>
