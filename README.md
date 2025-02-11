@@ -75,6 +75,8 @@ If I had more time, I would:
 
 - Deploy the app with CI/CD pipelines.
 
+- Document codebase using OpenAPI (Swagger)
+
 - Improve UI/UX with animations.
 
 - Add search & filter functionality.

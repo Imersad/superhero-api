@@ -71,3 +71,5 @@ pnpm run test
 - Implement authentication.
 
 - Deploy the app with CI/CD pipelines.
+
+- Document codebase using OpenAPI (Swagger)
