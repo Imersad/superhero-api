@@ -37,7 +37,7 @@ This project is a simple API and UI for managing superheroes, where each hero ha
 ✅ Simple React app (Vite)\
 ✅ Form to add superheroes\
 ✅ List of superheroes sorted by humility\
-✅ Responsive UI (TailwindCSS)
+✅ Basic UI (TailwindCSS)
 
 ## &nbsp;
 
@@ -74,6 +74,12 @@ If I had more time, I would:
 - Implement user authentication (JWT, OAuth).
 
 - Deploy the app with CI/CD pipelines.
+
+- Improve UI/UX with animations.
+
+- Add search & filter functionality.
+
+- Make The UI responsive
 
 ### 📝 Humility and Communication
 
